@@ -1,0 +1,16 @@
+#stage {
+  width:640px;
+  height:480px;
+  border:2px solid red;
+  position:relative;
+  margin: 20px;
+  float: left;
+}
+#info {
+  float: left;
+  padding-top: 200px;
+}
+
+#score {
+  display: inline;
+}

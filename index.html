@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Snake Game - Alexandra Turian</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+  </head>
+  <body onkeydown = changeDirection(event)>
+    <div id="stage"></div>
+
+    <div id="info">
+      <p id = "time">	Time: </p>
+      <span>Score : </span><p id = "score">0</p>
+      <p id = "fruitTime">	Fruit time: </p>
+      <p>	<button id = "startButton" onclick="startGame()">Start</button></p>
+      <p id = "gameOver"></p>
+      <p id = "finalScore"></p>
+    </div>
+
+  </body>
+</html>
